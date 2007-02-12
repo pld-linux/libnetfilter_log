@@ -1,5 +1,5 @@
 Summary:	netfilter userspace packet logging library
-Summary(pl):	Biblioteka logowania w przestrzeni uøytkownika dla netfiltra
+Summary(pl.UTF-8):   Biblioteka logowania w przestrzeni u≈ºytkownika dla netfiltra
 Name:		libnetfilter_log
 Version:	0.0.13
 Release:	1
@@ -20,15 +20,15 @@ libnetfilter_log is a userspace library providing interface to packets
 that have been logged by the kernel packet filter. It is part of a
 system that deprecates the old syslog/dmesg based packet logging.
 
-%description -l pl
-libnetfilter_log to biblioteka przestrzeni uøytkownika udostÍpniaj±ca
-interfejs do pakietÛw logowanych przez filtr pakietÛw w j±drze. Jest
-czÍ∂ci± systemu zastÍpuj±cego stare logowanie pakietÛw oparte na
+%description -l pl.UTF-8
+libnetfilter_log to biblioteka przestrzeni u≈ºytkownika udostƒôpniajƒÖca
+interfejs do pakiet√≥w logowanych przez filtr pakiet√≥w w jƒÖdrze. Jest
+czƒô≈õciƒÖ systemu zastƒôpujƒÖcego stare logowanie pakiet√≥w oparte na
 syslogu/dmesgu.
 
 %package devel
 Summary:	Header files for libnetfilter_log library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libnetfilter_log
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libnetfilter_log
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libnfnetlink-devel >= 0.0.16
@@ -36,19 +36,19 @@ Requires:	libnfnetlink-devel >= 0.0.16
 %description devel
 Header files for libnetfilter_log library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libnetfilter_log.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libnetfilter_log.
 
 %package static
 Summary:	Static libnetfilter_log library
-Summary(pl):	Statyczna biblioteka libnetfilter_log
+Summary(pl.UTF-8):   Statyczna biblioteka libnetfilter_log
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libnetfilter_log library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libnetfilter_log.
 
 %prep
