@@ -1,5 +1,5 @@
 Summary:	netfilter userspace packet logging library
-Summary(pl.UTF-8):   Biblioteka logowania w przestrzeni użytkownika dla netfiltra
+Summary(pl.UTF-8):	Biblioteka logowania w przestrzeni użytkownika dla netfiltra
 Name:		libnetfilter_log
 Version:	0.0.13
 Release:	1
@@ -28,7 +28,7 @@ syslogu/dmesgu.
 
 %package devel
 Summary:	Header files for libnetfilter_log library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libnetfilter_log
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libnetfilter_log
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libnfnetlink-devel >= 0.0.16
@@ -41,7 +41,7 @@ Pliki nagłówkowe biblioteki libnetfilter_log.
 
 %package static
 Summary:	Static libnetfilter_log library
-Summary(pl.UTF-8):   Statyczna biblioteka libnetfilter_log
+Summary(pl.UTF-8):	Statyczna biblioteka libnetfilter_log
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
