@@ -12,7 +12,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libnfnetlink-devel >= 0.0.39
 BuildRequires:	libtool
-BuildRequires:	pkgconfig >= 0.9.0
+BuildRequires:	pkgconfig >= 1:0.9.0
 Requires:	libnfnetlink >= 0.0.39
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
