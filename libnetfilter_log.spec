@@ -1,12 +1,12 @@
 Summary:	netfilter userspace packet logging library
 Summary(pl.UTF-8):	Biblioteka logowania w przestrzeni użytkownika dla netfiltra
 Name:		libnetfilter_log
-Version:	0.0.14
+Version:	0.0.15
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	ftp://ftp.netfilter.org/pub/libnetfilter_log/%{name}-%{version}.tar.bz2
-# Source0-md5:	ec743e5576b3bc233f5176ea124cf460
+# Source0-md5:	310ddd9e0c2bb6108b5fa33cd2666008
 URL:		http://www.netfilter.org/projects/libnetfilter_log/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -32,7 +32,7 @@ Summary:	Header files for libnetfilter_log library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libnetfilter_log
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	libnfnetlink-devel >= 0.0.16
+Requires:	libnfnetlink-devel >= 0.0.39
 
 %description devel
 Header files for libnetfilter_log library.
@@ -78,8 +78,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libnetfilter_log.so.*.*.*
-%attr(755,root,root) %{_libdir}/libnetfilter_log_libipulog.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libnetfilter_log.so.1
+%attr(755,root,root) %{_libdir}/libnetfilter_log_libipulog.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libnetfilter_log_libipulog.so.1
 
 %files devel
