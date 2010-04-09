@@ -10,10 +10,10 @@ Source0:	ftp://ftp.netfilter.org/pub/libnetfilter_log/%{name}-%{version}.tar.bz2
 URL:		http://www.netfilter.org/projects/libnetfilter_log/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libnfnetlink-devel >= 0.0.39
+BuildRequires:	libnfnetlink-devel >= 0.0.41
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 1:0.9.0
-Requires:	libnfnetlink >= 0.0.39
+Requires:	libnfnetlink >= 0.0.41
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -32,7 +32,7 @@ Summary:	Header files for libnetfilter_log library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libnetfilter_log
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	libnfnetlink-devel >= 0.0.39
+Requires:	libnfnetlink-devel >= 0.0.41
 
 %description devel
 Header files for libnetfilter_log library.
