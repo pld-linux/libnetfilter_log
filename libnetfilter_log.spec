@@ -1,12 +1,12 @@
 Summary:	netfilter userspace packet logging library
 Summary(pl.UTF-8):	Biblioteka logowania w przestrzeni użytkownika dla netfiltra
 Name:		libnetfilter_log
-Version:	0.0.16
+Version:	1.0.0
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	ftp://ftp.netfilter.org/pub/libnetfilter_log/%{name}-%{version}.tar.bz2
-# Source0-md5:	4ffcf46dad9d0c81f6611dd185639694
+# Source0-md5:	acdb188a1e7504e95636d0770ade393c
 URL:		http://www.netfilter.org/projects/libnetfilter_log/
 BuildRequires:	autoconf
 BuildRequires:	automake
